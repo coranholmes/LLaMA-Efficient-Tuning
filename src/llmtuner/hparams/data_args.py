@@ -10,7 +10,7 @@ class DatasetAttr:
     load_from: str
     dataset_name: Optional[str] = None
     dataset_sha1: Optional[str] = None
-    system_prompt: Optional[str] = None
+    system_prompt: Optional[str] = "system"
     ranking: Optional[bool] = False
     prompt: Optional[str] = "instruction"
     query: Optional[str] = "input"
